@@ -1,0 +1,535 @@
+Firm__A  4   Month:  1008.00 - 2016.00                                               page   1
+                   OPERATIONS IN DEPARTMENTS
+     Raw ----------------------------------------------
+Job Matl 10  20  30  40  50  60  70  80  90 100 110 120    Time   Units  Mach  Nature of event
+-----------------------------------------------------------------------------------------------------
+104      *                                               1008.00    100        Materials allocated
+104      *                                               1008.00    100        Being moved to next operation
+104           1                                          1008.66    100    1   Processing initiated
+104           1                                          1013.40    100        Units arrived for processing
+104           1                                          1084.97    100    1   Processing completed
+104           1                                          1135.44    100        Being moved to next operation
+104               2                                      1135.44    100    1   Processing initiated
+104               2                                      1138.55    100        Units arrived for processing
+104               2                                      1239.75    100    1   Processing completed
+104               2                                      1304.50    100        Being moved to next operation
+104                   3                                  1304.77    100    1   Processing initiated
+104                   3                                  1307.61    100        Units arrived for processing
+104                   3                                  1372.98    100    1   Processing completed
+104                   3                                  1403.14    100        Being moved to next operation
+104                       4                              1404.86    100    1   Processing initiated
+104                       4                              1406.25    100        Units arrived for processing
+104                       4                              1611.67    100    1   Processing completed
+104                       4                              1687.08    100        Being moved to next operation
+104                           5                          1689.90    100    1   Processing initiated
+104                           5                          1690.19    100        Units arrived for processing
+104                           5                          1924.56    100    1   Processing completed
+104                           5                          2002.95    100        Being moved to shipping
+104                              **                      2006.11    100        Lot shipped to customer, due at  2016.00
+ 
+Firm__A  4   Month:  1008.00 - 2016.00                                               page   2
+
+                        IDLE MATERIALS HANDLER TIME
+                         Move Man       Idle Time
+                             1           987.00
+
+                        IDLE PRODUCTION WORKER TIME
+                   Worker   Between jobs   Within jobs
+                      1         317.71          0.00
+
+                     STATEMENT OF DEPRECIATION CHARGES
+       Item              Cost            Charge            Cumulative
+     Factory           2922500           11690               23380
+     Machine  21         21000             210                 420
+     Machine  31         27500             275                 550
+     Machine  41         58000             580                1160
+     Machine  51         18500             185                 370
+     Machine  61         20500             205                 410
+     Truck     1         19000             380                 760
+
+     CASH FLOW STATEMENT  1008.00 TO  2016.00
+
+     Beginning cash                                               1288400
+          Sales of job     104                      15800
+                                                             ============
+     TOTAL CASH AVAILABLE                                         1304200
+
+          EXECUTIVE SALARIES                        10000
+           LABOR
+               Direct working                         598
+                      Idle                            275
+                      Overtime                        275
+               Materials Handling Working              10
+                                  Idle                469
+          SUPPLIES                                   1238
+          POWER                                       386
+          INSURANCE                                  7908
+          OFFICE COSTS                               1340
+          ENGINEERING EXPENSE                        1365
+                                                             ============
+     CASH AT END                                                  1280337
+
+                      STATEMENT OF FINANCIAL CONDITION
+               Cash                                    1280337
+               Marketable Securities                         0
+               Long Term Debt                                0
+               Short Term Debt                               0
+               Common Stock                            4500000
+
+                     COST AND SALES DATA FOR CURRENT LOTS
+
+     REPORT ON JOB   104 making     100 units for delivery by    2016.00
+     Phase  Dept  To move in  To do   Sched   Done  To move out  Overtime
+        1    20         0         0     100    100        0          0
+        2    30         0         0     100    100        0          0
+        3    40         0         0     100    100        0          0
+        4    50         0         0     100    100        0          0
+        5    60         0         0     100    100        0          0
+
+          100 units delivered at   2006.11 for $     15800
+
+                         COSTS ATTRIBUTED TO LOT   104
+          Materials           4540     Handling              10
+          Labor                598     Overtime             275
+
+                              INVENTORY REPORT
+
+Inventory policy: Reorder point = 1, Reorder quantity = 2.
+Material No   |    1 |    2 |    3 |    4 |    5 |    6 |
+==============+======+======+======+======+======+======+
+In stock (Kg) |  4400|  4500|  4600|  4700|  4800|  4900|
+==============+======+======+======+======+======+======+
+Available     |  4400|  4500|  4600|  4700|  4800|  4900|
+==============+======+======+======+======+======+======+
+Reorder point |  1500|  1500|  1500|  1500|  1500|  1500|
+==============+======+======+======+======+======+======+
+Reorder quant.|  5000|  5000|  5000|  5000|  5000|  5000|
+ 
+     Market report for Firm__A4, month ended 2016
+
+                              Report of bidding activity
+                             --------------------------
+
+ Your firm has won the bidding on the following lots :
+
+             LOT         PRICE($)    DELIVERY
+             ---         --------    --------
+             121             6500       3696
+
+
+                    MONTHLY MARKET STATUS REPORT
+ Lot    Firm     Delivery    Material Cost     Real Bid   Adjusted bid
+ 106      5          3024              459         1990         1853.3
+ 107      2          4704          22084.6        29814        29300.5
+ 108      2          3360           7971.6        13552        13318.6
+ 109      2          4704           1713.6         2714        2667.26
+ 110      3          5712           3669.5         4600        4589.38
+ 111      2          3024           9307.5        11634        11433.6
+ 112      5          6048             5712        12000        11175.7
+ 113      1          5040             2550         7150        7114.19
+ 114      2          5040             4536         6577        6463.72
+ 115      1          5376           7925.4         9500        9452.42
+ 116      1          3024          27211.8        34300        34128.2
+ 117      3          6048             1472         2000        1995.38
+ 118      5          5376              480         2000        1862.62
+ 119      2          5376           2476.8         4211        4138.47
+ 120      3          3696          13587.6        16900          16861
+ 121      4          3696             3591         6500        6490.43
+ 122      2          3360           4022.8         5029        4942.38
+ 123      2          4368             4536         5897        5795.43
+ 124      3          4368          28816.7        32350        32275.3
+ 125      0          6048              855            0         1e+010
+ 126      2          4368          19866.4        33773        33191.3
+ 127      2          4704           1809.6         2810         2761.6
+ 128      2          3024          14131.7        17665        17360.8
+ 129      5          6048             9540        16000        14900.9
+ 130      5          5712           4123.8         9990        9303.77
+ 131      2          3696           2111.4         3589        3527.19
+ 132      2          3024           2830.4         3831        3765.02
+ 133      2          4032             7876        13389        13158.4
+ 134      2          5376           2948.4         3156        3101.64
+ 135      2          5040           2551.5         3670        3606.79
+ 
+                        New lots available for bidding
+                        ------------------------------
+
+                          Specifications for lot   136
+                          ----------------------------
+             Bid on    72 units     Delivery due by      7056
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0    20     0     3
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             4           0.152             0.011             0
+          2             3           0.747             0.028        13.446
+
+                          Specifications for lot   137
+                          ----------------------------
+             Bid on   142 units     Delivery due by      5376
+
+       Material     1     2     3     4     5     6
+         Amount     7     0     9     0     0     7
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             5           0.156             0.053         0.936
+          2             4           0.446             0.112         8.028
+          3             6            0.73             0.188           7.3
+
+                          Specifications for lot   138
+                          ----------------------------
+             Bid on   122 units     Delivery due by      4704
+
+       Material     1     2     3     4     5     6
+         Amount     0     9     2     0     0    19
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             2           0.601              0.07         3.606
+          2             6           0.275             0.124             0
+
+                          Specifications for lot   139
+                          ----------------------------
+             Bid on    92 units     Delivery due by      6720
+
+       Material     1     2     3     4     5     6
+         Amount     0     0    17     0     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             5           0.447             0.118         1.788
+          2             4           0.872             0.064         3.488
+          3             2           0.372             0.172         2.976
+
+                          Specifications for lot   140
+                          ----------------------------
+             Bid on    46 units     Delivery due by      4368
+
+       Material     1     2     3     4     5     6
+         Amount     0     0    15     0     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             4           0.424             0.172         6.784
+          2             3           0.917              0.08        14.672
+          3             2            0.69             0.255          9.66
+          4             6           0.686             0.329        10.976
+          5             3           0.676             0.288         1.352
+          6             6           0.978             0.191         5.868
+
+                          Specifications for lot   141
+                          ----------------------------
+             Bid on    50 units     Delivery due by      4704
+
+       Material     1     2     3     4     5     6
+         Amount     0    16     0     0     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             3           0.178             0.023         0.356
+          2             6           0.305             0.139          4.27
+          3             5           0.267             0.056         1.602
+          4             3           0.472             0.069             0
+          5             4           0.111             0.051         1.998
+
+                          Specifications for lot   142
+                          ----------------------------
+             Bid on   180 units     Delivery due by      4704
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     9     9    15     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             2           0.045             0.012          0.09
+          2             6           0.926             0.175          9.26
+          3             4           0.482             0.005             0
+          4             2           0.968             0.482         3.872
+
+                          Specifications for lot   143
+                          ----------------------------
+             Bid on    76 units     Delivery due by      6384
+
+       Material     1     2     3     4     5     6
+         Amount     7     0     0     0     0     9
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             3            0.21             0.035          2.52
+          2             4            0.78             0.113          4.68
+          3             2           0.609             0.194         1.218
+          4             3           0.814             0.167         1.628
+          5             5           0.284             0.083         0.568
+
+                          Specifications for lot   144
+                          ----------------------------
+             Bid on    88 units     Delivery due by      4368
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0    17     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             3           0.003                 0         0.006
+          2             2            0.48             0.066          0.96
+          3             5           0.174             0.023             0
+
+                          Specifications for lot   145
+                          ----------------------------
+             Bid on   160 units     Delivery due by      4032
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0    20     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             2           0.943             0.354         7.544
+          2             3            0.08             0.028          1.12
+          3             4           0.578              0.15         2.312
+          4             2           0.011             0.004             0
+
+                          Specifications for lot   146
+                          ----------------------------
+             Bid on    30 units     Delivery due by      4032
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0    17     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             6           0.806             0.267        14.508
+          2             4           0.373             0.003         2.984
+          3             3           0.134             0.024          1.34
+          4             6           0.873             0.161          8.73
+          5             5           0.495             0.228          1.98
+
+                          Specifications for lot   147
+                          ----------------------------
+             Bid on   114 units     Delivery due by      4704
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0     3    17     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             4           0.893             0.154             0
+          2             6           0.621              0.17         3.726
+
+                          Specifications for lot   148
+                          ----------------------------
+             Bid on    38 units     Delivery due by      4704
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0     0     0    15
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             3           0.636             0.069        11.448
+          2             2            0.73             0.071         11.68
+          3             5           0.936             0.318         3.744
+
+                          Specifications for lot   149
+                          ----------------------------
+             Bid on    58 units     Delivery due by      6384
+
+       Material     1     2     3     4     5     6
+         Amount     0    18     0     0     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             3           0.424             0.143          4.24
+          2             4           0.312               0.1         1.872
+          3             3           0.366             0.087         5.856
+          4             6            0.02             0.001          0.28
+
+                          Specifications for lot   150
+                          ----------------------------
+             Bid on   162 units     Delivery due by      6048
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0     0     0    18
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             4           0.891             0.016          8.91
+          2             3           0.692             0.105         5.536
+          3             5           0.421             0.047          4.21
+
+                          Specifications for lot   151
+                          ----------------------------
+             Bid on   178 units     Delivery due by      6384
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0    17     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             6           0.057             0.019         0.912
+          2             5           0.509             0.228         3.054
+          3             6           0.427             0.134         1.708
+          4             3           0.056             0.014         0.224
+
+                          Specifications for lot   152
+                          ----------------------------
+             Bid on   140 units     Delivery due by      6720
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0     0     0    19
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             5           0.553             0.113          5.53
+          2             3           0.155             0.051          2.48
+          3             5           0.168             0.034         2.688
+          4             6           0.732             0.259         1.464
+          5             3            0.99             0.458           9.9
+
+                          Specifications for lot   153
+                          ----------------------------
+             Bid on   138 units     Delivery due by      4032
+
+       Material     1     2     3     4     5     6
+         Amount     0    13     1    11     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             6           0.508             0.084          5.08
+          2             3           0.581              0.23          5.81
+          3             6           0.863              0.22             0
+          4             5           0.378             0.057         6.804
+          5             2           0.505             0.184          3.03
+
+                          Specifications for lot   154
+                          ----------------------------
+             Bid on   192 units     Delivery due by      5040
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     5     0     0    17
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             2           0.873             0.313        13.968
+          2             6           0.683             0.121         5.464
+          3             2           0.593             0.222         7.116
+
+                          Specifications for lot   155
+                          ----------------------------
+             Bid on   148 units     Delivery due by      6048
+
+       Material     1     2     3     4     5     6
+         Amount     0     1     0    17     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             5           0.504             0.015         8.064
+          2             2           0.067             0.009         1.206
+          3             6           0.845             0.379         11.83
+          4             5           0.892             0.055         5.352
+          5             4           0.191             0.028         3.438
+
+                          Specifications for lot   156
+                          ----------------------------
+             Bid on   152 units     Delivery due by      5376
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     0     0    17     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             4           0.136             0.013         1.088
+          2             6           0.056             0.013         0.672
+
+                          Specifications for lot   157
+                          ----------------------------
+             Bid on   194 units     Delivery due by      5376
+
+       Material     1     2     3     4     5     6
+         Amount     0    17     0     0     8     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             6           0.016             0.006         0.256
+          2             2           0.298             0.031         1.788
+
+                          Specifications for lot   158
+                          ----------------------------
+             Bid on   144 units     Delivery due by      4704
+
+       Material     1     2     3     4     5     6
+         Amount     0     0     1    20     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             6           0.474              0.02         7.584
+          2             5           0.507             0.175         6.084
+          3             2           0.176              0.02         2.464
+          4             6           0.161             0.035         2.576
+          5             3             0.8             0.373             0
+
+                          Specifications for lot   159
+                          ----------------------------
+             Bid on    98 units     Delivery due by      6720
+
+       Material     1     2     3     4     5     6
+         Amount     0    18     0     0     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             2           0.377             0.136         2.262
+          2             5           0.857             0.237         1.714
+          3             3            0.62             0.183          1.24
+          4             6            0.55             0.171           9.9
+
+                          Specifications for lot   160
+                          ----------------------------
+             Bid on    92 units     Delivery due by      4704
+
+       Material     1     2     3     4     5     6
+         Amount     2    20     0     2    10     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             2           0.452             0.217         6.328
+          2             4            0.76             0.323         12.16
+          3             6           0.108             0.021         0.648
+          4             4           0.108             0.035         0.864
+          5             6           0.578             0.195         6.936
+
+                          Specifications for lot   161
+                          ----------------------------
+             Bid on   194 units     Delivery due by      4032
+
+       Material     1     2     3     4     5     6
+         Amount     9     8     0     0     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             6           0.773             0.373         3.092
+          2             5            0.35             0.137           3.5
+          3             6           0.093                 0         1.674
+          4             5           0.819             0.345        13.104
+          5             4           0.281              0.02          2.81
+
+                          Specifications for lot   162
+                          ----------------------------
+             Bid on    74 units     Delivery due by      5712
+
+       Material     1     2     3     4     5     6
+         Amount     0    17     8     0     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             2           0.423             0.027         1.692
+          2             4            0.23             0.008          0.46
+
+                          Specifications for lot   163
+                          ----------------------------
+             Bid on    84 units     Delivery due by      5712
+
+       Material     1     2     3     4     5     6
+         Amount     0    11    10     0     0     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             4           0.828             0.368         1.656
+          2             2           0.574             0.275         3.444
+
+                          Specifications for lot   164
+                          ----------------------------
+             Bid on   166 units     Delivery due by      5376
+
+       Material     1     2     3     4     5     6
+         Amount     0     5     0     0     5     5
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             4           0.838             0.364        11.732
+          2             5           0.754             0.147        12.064
+
+                          Specifications for lot   165
+                          ----------------------------
+             Bid on   108 units     Delivery due by      6720
+
+       Material     1     2     3     4     5     6
+         Amount     0     0    15     0    19     0
+
+     Operation    Department    Cycle time    Cycle variance   Setup time
+          1             2           0.241              0.02         4.338
+          2             6           0.164              0.02         2.952
+          3             5           0.152             0.039         2.736
+          4             6           0.194             0.032         3.104
+          5             3           0.625             0.311           2.5
+
