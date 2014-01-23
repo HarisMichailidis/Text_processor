@@ -15,18 +15,36 @@ int main()
 {
    
    FILE *fs,*fb,*fo;
-   char mark_rep[]="Market report",new_lots[]="New lots";
+   char mark_rep[]="Market report",
+   	new_lots[]="New lots",
+   	cant_find[]="You wont find this string",
+   	input[40] = "",
+   	firm[40] = "firm",
+   	others[40] = "others",
+   	bids[40] = "bids";
 
+	printf("Specify the team-time stamp.\n");
+	printf("Example: A4_1008-2016    (without space in the end).\n");
+	printf("Team-time stamp: ");
+	scanf("%s",&input);
 
-   fs=open_file("firmA4_1008-2016.txt");   //test.txt  firmA4_1008-2016.txt
-   fo=create_file("others.csv");
-   fb=create_file("bids.csv");
+	strcat(firm,input);
+	strcat(firm,".txt");
+	strcat(others,input);
+	strcat(others,".csv");
+	strcat(bids,input);
+	strcat(bids,".csv");
+
+	
+   fs=open_file(firm);   //test.txt  firmA4_1008-2016.txt
+   fo=create_file(others);
+   fb=create_file(bids);
 
    replace_n_store(mark_rep,new_lots,fs,fo);
-   printf("Done with file: %s !\n\n","others.csv" );
+   printf("Done with file: \t\t%s \n\n",others );
 
-   replace_n_store("\n","You wont find this",fs,fb);
-   printf("Done with file: %s !\n\n","bids.csv" );
+   replace_n_store("\n",cant_find,fs,fb);
+   printf("Done with file: \t\t%s \n\n",bids );
  
    fclose(fs);
    fclose(fb);
@@ -38,7 +56,7 @@ int main()
 
 FILE *open_file(char file_name[25]){
    
-   printf("Name of file to open: %s\n",file_name);
+   printf("Name of file to open: \t\t%s\n",file_name);
    
    FILE *fp;
    fp = fopen(file_name,"r"); // read mode
@@ -46,6 +64,7 @@ FILE *open_file(char file_name[25]){
    if( fp == NULL )
    {
       perror("Error while opening the file.\n");
+ 		system("pause");
       exit(EXIT_FAILURE);
    }else{
       printf("The file opened corectly\n\n");
@@ -56,7 +75,7 @@ FILE *open_file(char file_name[25]){
 
 FILE *create_file(char file_name[25]){
    
-   printf("Name of file to create: %s\n",file_name);
+   printf("Name of file to create: \t%s\n",file_name);
    
    FILE *fp;
    fp = fopen(file_name,"w"); // write mode
@@ -64,6 +83,7 @@ FILE *create_file(char file_name[25]){
    if( fp == NULL )
    {
       perror("Error while creating the file.\n");
+      system("pause");
       exit(EXIT_FAILURE);
    }else{
       printf("The file created correctly\n\n");
