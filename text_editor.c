@@ -23,7 +23,10 @@ int main()
    fb=create_file("bids.csv");
 
    replace_n_store(mark_rep,new_lots,fs,fo);
-   printf("File: %s created!\n\n","others.csv" );
+   printf("Done with file: %s !\n\n","others.csv" );
+
+   replace_n_store("\n","You wont find this",fs,fb);
+   printf("Done with file: %s !\n\n","bids.csv" );
  
    fclose(fs);
    fclose(fb);
@@ -69,6 +72,8 @@ FILE *create_file(char file_name[25]){
    return fp;
 }
 
+//Search_in_File is not used but is very helpfull
+// for other text processing programs
 int Search_in_File(FILE *fp, char *str) {
   
    int line_num = 1;
@@ -123,7 +128,6 @@ void replace_n_store(
    while(fgets(temp, 512, source_file) != NULL) {
       if((strstr(temp, ending_string)) != NULL) {
          //found the ending_string in this line
-         printf("Found the: \"%s\" \n",ending_string);
          break;
       }else{ 
          replace_with_comma(temp,destination_file);
@@ -149,11 +153,16 @@ void replace_with_comma(char input_line[512],FILE *output_file){
 			j++;
 		}else
 		if(input_line[i]==' '){
+
 			if(input_line[i+1]==' '){
 				if(output[j-1]!=','){
 					output[j]=',';
 					j++;
 				}
+			}else
+			if(input_line[i+1]=='u'){
+				output[j]=',';
+				j++;
 			}else{
 				output[j]=' ';
 				j++;	
