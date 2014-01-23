@@ -4,5 +4,5 @@
 
 The main goal is to give to the program an input file, replace all the spaces with commas and output it to different .csv files.
 
-####	Developed by Charalampos Michailidis - Jan 2014
+*Developed by* ### Charalampos Michailidis - Jan 2014
 
